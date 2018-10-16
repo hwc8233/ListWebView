@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private List<String> getList() {
         List<String> list = new ArrayList<String>();
         for (int i = 0; i < 100; i++) {
-            list.add("https://www.cnblogs.com/zhangqie/p/6728230.html");
+            list.add("https://www.baidu.com/s?ie=UTF-8&wd=" + i);
         }
         return list;
     }
